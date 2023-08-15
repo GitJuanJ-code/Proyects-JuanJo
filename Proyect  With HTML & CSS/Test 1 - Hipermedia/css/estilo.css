@@ -1,0 +1,127 @@
+/*selector{
+    declaraciones
+    propiedades: valor;
+}*/
+
+a .header {
+    background-color: #B6FFCE;
+    /*especificar margeners
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;*/
+    margin: 100px 50px 200px 300px;
+    margin: 10px;
+    padding: 100px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding: 100px 30px 20px 30px;
+}
+
+.nav {
+    background-color: #F6FFA4;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.nav a:hover {
+    background-color: #B6FFCE;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.section {
+    margin: 10px;
+}
+
+.article {
+    display: flex;
+}
+
+.footer {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.columna {
+    background-color: #FFA8A8;
+    margin: 10px;
+    padding: 10px;
+}
+
+h3 {
+    background: #FFA8A8;
+}
+
+h4 {
+    background: #659b72;
+    display: inline-block;
+}
+
+
+/*a {
+    background-color: rgb(21, 210, 235);
+    display: block;
+}
+
+li {
+    background-color: bisque;
+    display: inline;
+}
+*/
+
+.nav-enlace {
+    background: lightcoral;
+    color: azure;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: grey;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-enlace:hover {
+    background: white;
+}
+
+div {
+    background: #B6FFCE;
+    padding: 5px;
+    margin: 10px 3px;
+}
+
+button {
+    background: lightgray;
+    margin: 15px 10px;
+    color: black;
+    padding: 5px;
+}
+
+button:hover {
+    background: lightblue;
+}
+
+button:active {
+    background: lightcoral;
+}
+
+@media (max-width: 500px) {
+    nav {
+        background: grey;
+        flex-direction: column;
+    }
+    .nav-enlace {
+        margin: 10px 0;
+    }
+}
